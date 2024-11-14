@@ -1,0 +1,163 @@
+body{
+    background-color: rgb(245, 244, 231);
+}
+
+   main{
+    display: flex;
+    padding-top: 80px;
+   }
+   
+.header{
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+
+.links{
+    display: inline;
+    margin-left: 480px;
+}
+
+.botoes{
+    display: inline;
+    margin-left: 480px;
+}
+
+.links a{
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 3px;
+}
+
+.links a:hover{
+    color: #e605d3;
+    border-top: 2px solid #e605d3;
+    border-bottom: 2px solid #e605d3;
+}
+
+.link-a-1{
+    background-color: #ec37c7;
+    border: #e605d3 solid 2px;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    margin: 5px;
+}
+
+.link-a-2{
+    background-color: transparent;
+    border: #e605d3 solid 2px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.span-1, .span-2{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.span-1{
+    color:#85037a ;
+}
+
+.span-2{
+    color: #e605d3;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(222, 222, 217);
+    width: 100%;
+    margin: 50px 0 0 0;
+    padding: 40px;
+}
+
+.texto{
+    text-align: justify;
+    columns: 3;
+    font-weight: bold;
+    margin:10px;
+}
+
+.secao-1 h1{
+    font-weight: bold;
+}
+
+.secao-1 h2{
+    font-weight: lighter;
+    color: #e605d3;
+    margin: top 10px; 
+}
+
+h2{
+   margin-top: 20px;
+}
+
+.secao-2 h2{
+    font-weight: lighter;
+    color: #e605d3;
+    margin: top 10px; 
+}
+
+.linha-divisoria{
+    width: 0.5%;
+    background-color: rgb(255, 0, 221);
+    height: 100hv;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.contanier{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.secao-1{
+    width: 66%;
+    margin-left: 0;
+    padding: 15px;
+    height: 100hv;
+}
+
+.secao-2{
+    width: 40%;
+    margin-left: 0;
+    padding: 15px;
+    height: 100hv;
+}
+
+.mySlides{
+     width: 300px;
+     height: 200px;
+     border-radius: 20px;
+     margin: 0 auto;
+}
+
+.img2{
+    width: 100%;
+    border-radius: 20px;
+}
+
+h3{
+    text-align: center;
+    font-size: 50px;
+}
+
+.campobox{
+    width: 33%;
+}
+
+.tabela{
+    padding: 20px;
+}
+
+.slideshow-container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
